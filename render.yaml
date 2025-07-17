@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: video-code-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    repo: https://github.com/Rakhmonov571/video-bot
+    branch: main
+    region: oregon
+    plan: free
